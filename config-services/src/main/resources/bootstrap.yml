@@ -5,10 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/RobertoGaspar/cloud-example.git
-          search-paths: config-data
+          uri: https://github.com/RobertoGaspar/cloud-config-services.git
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
+          search-paths: config-data
   security:
     user:
       name: root
